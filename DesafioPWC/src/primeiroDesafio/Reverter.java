@@ -13,9 +13,6 @@ public class Reverter {
 		for (int x = separar.length -1 ; x >= 0; x-- ){
 			
 			String teste = separar[x];
-			
-			//teste = String.format("%-1s", teste);
-			
 			System.out.print(teste + " " );
 				
 		
