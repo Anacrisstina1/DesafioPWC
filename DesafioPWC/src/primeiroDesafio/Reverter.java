@@ -14,8 +14,9 @@ public class Reverter {
 			
 			String teste = separar[x];
 			
+			//teste = String.format("%-1s", teste);
 			
-			System.out.print( teste);
+			System.out.print(teste + " " );
 				
 		
 		
