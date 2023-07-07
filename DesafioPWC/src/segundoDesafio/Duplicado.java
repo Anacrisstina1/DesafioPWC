@@ -14,12 +14,11 @@ public class Duplicado {
 			
 			String caractere = "" + inicial.charAt(x);
 			
-			
-			
 			 
 		if( auxiliar.indexOf(caractere) == -1) {
 			auxiliar += caractere;
 			
+			System.out.print(caractere);
 	
 				
 			}
