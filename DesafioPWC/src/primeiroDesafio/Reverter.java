@@ -12,11 +12,10 @@ public class Reverter {
 		
 		for (int x = separar.length -1 ; x >= 0; x-- ){
 			
-			String teste = separar[x];
-			System.out.print(teste + " " );
+			String revertido = separar[x];
+			
+			System.out.print(revertido + " " );
 				
-		
-		
 		}
 	}
 
