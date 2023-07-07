@@ -4,28 +4,28 @@ import java.util.Scanner;
 
 public class Duplicado { 
 	public static void main(String[] args) {
-		Scanner entra = new Scanner (System.in);
 		
-		StringBuilder paia = new StringBuilder();
+		Scanner entra = new Scanner (System.in);
 		
 		String inicial = entra.nextLine();
 		
+		String auxiliar = ""  ;
 		for (int x = 0 ; x < inicial.length(); x++){
 			
 			String caractere = "" + inicial.charAt(x);
-			System.out.print (caractere+" ");
-
+			
+			
+			
 			 
-		if( caractere.indexOf(String.valueOf(caractere))== -1) {
+		if( auxiliar.indexOf(caractere) == -1) {
+			auxiliar += caractere;
 			
-			paia.append(caractere);
-			
-			System.out.print( paia );
-			
-			return; 
+	
 				
 			}
-		}
+		
 	}
-}
+		
+	}
 
+}
